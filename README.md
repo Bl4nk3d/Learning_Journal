@@ -5,3 +5,6 @@ Progress of Project and Notes
 Created learning journal 
 
 When making the tutorials make them unlinked so that none require a watch of another to understand the statements used. 
+
+Use tutorial tips in Week 2 notes
+
