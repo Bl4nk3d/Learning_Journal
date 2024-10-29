@@ -29,4 +29,11 @@ After the project has been opened head to the Edit tab at the top left of the sc
 
 Close the tab and we can begin making our mover.
 
-In the Scene 
+In the Scene box right click and click 3D Object - Cube to place a cube within our scene. Repeat this with a Plane and place it below our cube. This will be so we can clearly see the ways our cube moves. 
+
+![image](https://github.com/user-attachments/assets/8a5442d6-9bfe-4d4b-a03e-72801fb58859)
+
+Next go to our Folders and create a new Folder called Scripts, this is where we will keep our code that determines how our cube works. 
+
+![image](https://github.com/user-attachments/assets/1b112a2d-ea41-4bb5-ad14-80560af91f46)
+
