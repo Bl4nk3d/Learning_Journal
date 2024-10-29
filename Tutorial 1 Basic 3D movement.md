@@ -1,5 +1,9 @@
 In this tutorial  I will be presenting how to code simple 3D movement within a space 
 
+Begining with this tutorial does not require much previous knowledge of coding essentials and can be followed regardless of previous coding backgrounds.
+
+For the first step we will be setting up our project so that the basic rules and functions of the scene will play out how we want. 
+
 First create a new project as a 3D rpoject and name it Move the Cube
 
 ![image](https://github.com/user-attachments/assets/d354a0d7-6212-40aa-b936-38cb0f467f37)
@@ -11,16 +15,12 @@ After the project has been opened head to the Edit tab at the top left of the sc
 
 Close the tab and we can begin making our mover.
 
-In the Scene box right click and click 3D Object - Cube to place a cube within our scene. Repeat this with a Plane and place it below our cube. This will be so we can clearly see the ways our cube moves. 
+For the next step we will be looking at how to add and create 3D items and assets in our project. 
+
+In the Scene box right click and click 3D Object - Cube to place a cube within our scene. Repeat this with a Plane and place it below our cube. This will be so we can clearly see the ways our cube moves. Next go to our Folders and create a new Folder called Scripts, this is where we will keep our code that determines how our cube works. Using the same create menu, make a new script within our new folder and call it CubeMove and open it.
 
 ![image](https://github.com/user-attachments/assets/8a5442d6-9bfe-4d4b-a03e-72801fb58859)
-
-Next go to our Folders and create a new Folder called Scripts, this is where we will keep our code that determines how our cube works. 
-
 ![image](https://github.com/user-attachments/assets/1b112a2d-ea41-4bb5-ad14-80560af91f46)
-
-Using the same create menu, make a new script within our new folder and call it CubeMove and open it.
-
 ![image](https://github.com/user-attachments/assets/cbd195db-ea73-4e33-ad68-44712a5cfe4a)
 
 Brefore we begin to edit what it in the script we should first assign it to the cube we wish to move. Select the cube in the hierarchy or just click on it within the scene and find Add Components.
