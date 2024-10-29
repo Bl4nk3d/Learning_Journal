@@ -49,9 +49,11 @@ Next drag the script file over the Add component button to assign it directly to
 
 ![image](https://github.com/user-attachments/assets/0bb94933-c4bd-46b6-aaaa-1414280c9afa)
 
-Now we can start coding. Go back to the open script and within void update insert the following code. This code will determine that when an Input relating to a dimension is pushed its postion along that respective axis will be changed, moving it around as the player desires. 
+Now we can start coding. Go back to the open script and within void update insert (public float speed = 5f) above the green start line and the following code. This code will determine that when an Input relating to a dimension is pushed its postion along that respective axis will be changed, moving it around as the player desires. 
 
 ![image](https://github.com/user-attachments/assets/fd12479a-5dac-4b83-9a4e-52e3a4f0fbcc)
 
 You will notice with this code however that only horizontal movement is available with the arrow keys and this is because the default keys to move along that axis was removed earlier. However it should work when using W and S. 
+
+Underneath t
 
