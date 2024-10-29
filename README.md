@@ -55,5 +55,10 @@ Now we can start coding. Go back to the open script and within void update inser
 
 You will notice with this code however that only horizontal movement is available with the arrow keys and this is because the default keys to move along that axis was removed earlier. However it should work when using W and S. 
 
-Underneath t
+Underneath the previous code insert the following code as seen. 
+
+![image](https://github.com/user-attachments/assets/88d64e45-2131-442e-a447-3c52255418d0)
+
+This code will be what allows our cube to move along the plane in a way that previously could not and this movement will be assigned to the up and down arrows. 
+
 
