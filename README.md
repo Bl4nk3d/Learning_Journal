@@ -14,7 +14,9 @@ Making new tutorial video
 
 Basing subject on 3D movement with possible physics based mechanics (gravity)
 
-Week 4 
+WEEK 4
+
+TUTORIAL 1 BASIC 3D MOVEMENT
 
 In this tutorial  I will be presenting how to code simple 3D movement within a space 
 
