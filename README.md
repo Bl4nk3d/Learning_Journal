@@ -13,3 +13,9 @@ Use tutorial tips in Week 2 notes
 Making new tutorial video
 
 Basing subject on 3D movement with possible physics based mechanics (gravity)
+
+Week 4 
+
+In this tutorial  I will be presenting how to code simple 3D movement within a space 
+
+First create a new project as a 3D 
