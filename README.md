@@ -61,4 +61,6 @@ Underneath the previous code insert the following code as seen.
 
 This code will be what allows our cube to move along the plane in a way that previously could not and this movement will be assigned to the up and down arrows. Make sure that the code reads GetKey and not GetKeyDown as this will mean the movement only triggers when the press occurs and not when it is held down. 
 
+If you wish to change any of the button layouts for the cube simply either change the keycodes within the script or use the Project Manager to change the keys assigned to movement. 
+
 After this save the code, play the scene and enjoy your flying cube. 
