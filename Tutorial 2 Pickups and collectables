@@ -10,4 +10,6 @@ No we need to make this look more like a coin in game using its Mesh renderer. G
 
 To get that nice gold metal gleam effect, slide the metalic slider up to 1 and then choose an appropriate colour for our coin. I will be using a nice blue for this demo. I like blue :D
 
-Finally drag the new material into the Mesh Renderer Element 
+Finally drag the new material into the Mesh Renderer Element and the coin should now take whataver settings you apply to that material
+
+Next return to assets folder, click on the cylinder in the heiarchy and rename it Coin. Drag the coin into 
