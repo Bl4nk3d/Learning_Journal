@@ -8,6 +8,10 @@ For simplicity we will be making basic coins to collect. In the Heiarchy right c
 
 No we need to make this look more like a coin in game using its Mesh renderer. Go to the assets folder, create a new folder named Materials right click, go to create and make a new Material
 
+![Screenshot 2024-11-26 142212](https://github.com/user-attachments/assets/920baac7-e779-4094-ad9a-77f3a4c953a8)
+![image](https://github.com/user-attachments/assets/ef45f4d0-0728-4da4-ad2e-ad1440c59161)
+![image](https://github.com/user-attachments/assets/81b8bdf8-414d-4022-9b8a-9f8371fcb26d)
+
 
 To get that nice gold metal gleam effect, slide the metalic slider up to 1 and then choose an appropriate colour for our coin. I will be using a nice blue for this demo. I like blue :D
 
