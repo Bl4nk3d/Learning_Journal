@@ -1,1 +1,15 @@
+For the second tutorial I will be explaining how to create simple pickups that can be collected by the player and counted towards a UI count 
 
+First we need to make the pickups themselves
+
+For simplicity we will be making basic coins to collect. In the Heiarchy right click an empty space and create a Cylinder, scale it down using R and rotate it using  the Transform axis in its inspector tab (usually X -90)
+
+
+
+No we need to make this look more like a coin in game using its Mesh renderer. Go to the assets folder, create a new folder named Materials right click, go to create and make a new Material
+
+To get that nice gold metal gleam effect, slide the metalic slider up to 1 and then choose an appropriate colour for our coin. I will be using a nice blue for this demo. I like blue :D
+
+Finally drag the new material into the Mesh Renderer Element and the coin should now take whataver settings you apply to that material
+
+Next return to assets folder, click on the cylinder in the heiarchy and rename it Coin. Drag the coin into 
