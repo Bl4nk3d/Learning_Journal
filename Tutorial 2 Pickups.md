@@ -39,6 +39,17 @@ Insert the following script into the file:
 
 ![image](https://github.com/user-attachments/assets/919248f9-a405-44a6-8a1c-a4a9ecf748bb)
 
+After that we need to add in the item that will display the number of coins on our screen and make sure that it stays in frame during gameplay
+
+Head to game objects at the top of your screen and find the Text Mesh Pro in the UI tab
+
+![image](https://github.com/user-attachments/assets/fe4eadcf-7fb6-4c41-b57f-2d3f5dd4330e)
+
+If you cannot find this add on simply download it from the Package Manager
+
+![image](https://github.com/user-attachments/assets/adab8768-565a-475d-95e5-0731697b2ec8)
+
+
 
 
 
