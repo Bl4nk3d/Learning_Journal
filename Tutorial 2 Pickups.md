@@ -33,7 +33,11 @@ Delete the coin from the heirarchy on the left and then drag and drop however ma
 
 ![image](https://github.com/user-attachments/assets/1369fa2e-6e92-451c-91fb-c5487e1c6c8e)
 
+Find your "player" in your scene and attach a new script to it named "CoinCount" 
 
+Insert the following script into the file:
+
+![image](https://github.com/user-attachments/assets/919248f9-a405-44a6-8a1c-a4a9ecf748bb)
 
 
 
@@ -57,3 +61,11 @@ It should look like the following
 
 Essentially what this code is doing is that it is detecting when a collsion is occuring with another object and when that object hits the player it adds a score to the number of coins collected and then sets itself unactive, dissapearing from the scene. 
 This ensures that it is not picked up again until the next reload of the area. 
+
+
+
+
+
+
+
+
