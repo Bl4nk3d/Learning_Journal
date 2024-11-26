@@ -12,4 +12,18 @@ To get that nice gold metal gleam effect, slide the metalic slider up to 1 and t
 
 Finally drag the new material into the Mesh Renderer Element and the coin should now take whataver settings you apply to that material
 
-Next return to assets folder, click on the cylinder in the heiarchy and rename it Coin. Drag the coin into 
+Next return to assets folder, click on the cylinder in the heiarchy and rename it Coin. Drag the coin into the Assets table at the bottom of the screen and this will make it a set Asset that can be repated and inserted multiple times and be edited as a group rather than as indiduals. This means any changes will occur with all coins made from this asset.
+
+Delete the coin from the heirarchy on the left and then drag and drop however many coins as you wish from the new one in the Assets table. 
+
+
+
+
+
+Click on the Coin asset to open up its inspector and attach a new script to it. Name this script "Pickup"
+
+Next write the following above the Start function 
+
+void OnTriggerEnter(Collider other)
+{ 
+  CoinCount player = other.GetComponent<CoinCount>
