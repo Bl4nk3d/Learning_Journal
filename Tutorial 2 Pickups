@@ -26,4 +26,9 @@ Next write the following above the Start function
 
 void OnTriggerEnter(Collider other)
 { 
-  CoinCount player = other.GetComponent<CoinCount>
+  CoinCount player = other.GetComponent<CoinCount>();
+if (player!= null)
+{
+player.AddCoin();
+gameobject.SetActive(false);
+}
