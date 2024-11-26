@@ -14,10 +14,4 @@ Making new tutorial video
 
 Tutorial 2 - Pickups
 
-For UI - Right click heirarchy and select UI -> Text - TextMeshPro
 
-Install essentials if needed 
-
-START 
-
-This next tutorial 
