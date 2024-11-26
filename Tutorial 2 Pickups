@@ -19,7 +19,6 @@ Delete the coin from the heirarchy on the left and then drag and drop however ma
 
 
 
-
 Click on the Coin asset to open up its inspector and attach a new script to it. Name this script "Pickup"
 
 Next write the following above the Start function 
@@ -32,3 +31,7 @@ if (player!= null)
 player.AddCoin();
 gameobject.SetActive(false);
 }
+
+
+Essentially what this code is doing is that it is detecting when a collsion is occuring with another object and when that object hits the player it adds a score to the number of coins collected and then sets itself unactive, dissapearing from the scene. 
+This ensures that it is not picked up again until the next reload of the area. 
