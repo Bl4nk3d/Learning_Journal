@@ -37,7 +37,8 @@ Find your "player" in your scene and attach a new script to it named "CoinCount"
 
 Insert the following script into the file:
 
-![image](https://github.com/user-attachments/assets/919248f9-a405-44a6-8a1c-a4a9ecf748bb)
+![image](https://github.com/user-attachments/assets/061213f8-b67c-4e2e-be61-4d0a8c43fa0f)
+
 
 After that we need something that will display the number of coins on our screen and make sure that it stays in frame during gameplay
 
