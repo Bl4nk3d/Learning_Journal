@@ -39,7 +39,13 @@ Insert the following script into the file:
 
 ![image](https://github.com/user-attachments/assets/919248f9-a405-44a6-8a1c-a4a9ecf748bb)
 
-After that we need to add in the item that will display the number of coins on our screen and make sure that it stays in frame during gameplay
+After that we need something that will display the number of coins on our screen and make sure that it stays in frame during gameplay
+
+First create a Canvas in the hierarchy. It is located within the UI tab when right clicking.
+
+![image](https://github.com/user-attachments/assets/45db0882-87ff-4da9-ae26-27ab9e9b2ca4)
+
+This will hold the items that will display on our screen during gameplay such as the text we will now be adding. 
 
 Head to game objects at the top of your screen and find the Text Mesh Pro in the UI tab
 
@@ -48,6 +54,18 @@ Head to game objects at the top of your screen and find the Text Mesh Pro in the
 If you cannot find this add on simply download it from the Package Manager
 
 ![image](https://github.com/user-attachments/assets/adab8768-565a-475d-95e5-0731697b2ec8)
+
+Makes sure that the Text mesh UI is within the Canvas item within the hierarchy like so. 
+
+![image](https://github.com/user-attachments/assets/ef34805d-8c96-4179-ac3e-382c2af51207)
+
+Next click on the text asset within th ecanvas and look over the right of the screen to edit its attributes. 
+
+![image](https://github.com/user-attachments/assets/83279bba-dae4-4652-af55-0744c0524017)
+
+We are looking for this small square which will help lock its position in a suitable place 
+
+![image](https://github.com/user-attachments/assets/d2cc884b-a9cd-4441-92a5-f83a4c20a91b)
 
 
 
