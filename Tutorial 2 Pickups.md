@@ -67,8 +67,9 @@ We are looking for this small square which will help lock its position in a suit
 
 ![image](https://github.com/user-attachments/assets/d2cc884b-a9cd-4441-92a5-f83a4c20a91b)
 
+Click on the square to open up its menu. Depending on whether you use Shift, Alt or just clicking, the pivot, set position and the asset itself will all move to the chosen slot. Use Shift and Alt and click on the top left slot to attach our items to the left of the screen. (note there should be small blue circles within the squares as well which cannot be shown within this image)
 
-
+![image](https://github.com/user-attachments/assets/9f616898-b2ff-4fcd-ba7a-4cf41539fe7a)
 
 
 
