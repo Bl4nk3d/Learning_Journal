@@ -53,6 +53,8 @@ If you cannot find this add on simply download it from the Package Manager
 
 
 
+
+
 Click on the Coin asset to open up its inspector and attach a new script to it. Name this script "Pickup"
 
 Next write the following above the Start function 
