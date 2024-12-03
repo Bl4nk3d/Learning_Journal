@@ -72,8 +72,9 @@ Click on the square to open up its menu. Depending on whether you use Shift, Alt
 
 ![image](https://github.com/user-attachments/assets/9f616898-b2ff-4fcd-ba7a-4cf41539fe7a)
 
+Finally we need to connect the counting of the coins to the text itself. To do this click on the player that has the coin pickup script and drag the text asset in the hierarchy into the Text box
 
-
+![image](https://github.com/user-attachments/assets/2d2601b1-a5f3-49b7-a486-0affe2fba2f0)
 
 Click on the Coin asset to open up its inspector and attach a new script to it. Name this script "Pickup"
 
