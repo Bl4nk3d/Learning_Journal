@@ -8,3 +8,11 @@ Next we need to make the animations for the doors that will open and close. Open
 
 ![image](https://github.com/user-attachments/assets/1df5caba-d772-4dd1-b7a4-eb5c20271fcd)
 
+First select the group of objects you wish to animate, in this case the whole of the door including both the moving segments and any braces you have made. In the animation window select Create and name the first file something along the lines of Door opening.
+
+![image](https://github.com/user-attachments/assets/317c0599-a464-4aa7-bff9-4bf7c7ecca49)
+
+After the file is created return to the animation window and begin recording the changes made to the object using the small red dot. This will mark changes saved across the timeline and play them back when you hit the small traingle platy button. 
+
+![image](https://github.com/user-attachments/assets/7d53b64f-3ca3-410e-8f13-cf4c7bd69e41)
+
