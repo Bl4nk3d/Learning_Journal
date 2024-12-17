@@ -16,3 +16,7 @@ After the file is created return to the animation window and begin recording the
 
 ![image](https://github.com/user-attachments/assets/7d53b64f-3ca3-410e-8f13-cf4c7bd69e41)
 
+Create he first timestamp where the doors are closed fully in thier default stance and bring the slider over to the end and move the door objects to the most open position and save again.
+This will create the two points of range that the door will travel between and playing the animations will have them opening repeatedly within that range.
+
+Next we need to the same thing but in reverse. Create a new animation, name it Door close and repeat the previous step, but have the first frame be the open doors and the last be the close. Playing this should resemble somethign similar to the last animation in reverse. 
