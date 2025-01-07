@@ -24,3 +24,31 @@ Next we need to the same thing but in reverse. Create a new clip animation shown
 ![image](https://github.com/user-attachments/assets/e62f1e26-220e-4af6-9e58-2c9fd59d8ecf)
 
 Finally make a third clip which is simply just the doors closed. This will be used as our static state of the door where nothing is happening to the doors and is where the animations will start and end.
+
+Next we will be using the animator window to set our animation frames to the correct transitions and states. Open the animator windowto begin setting this up. If you cannot find the animator window heas to Window at the top of the screen Go to Animation - Animator then drag the window to where you find appropriate. I personaly put my window next to my project and console tabs. 
+
+![image](https://github.com/user-attachments/assets/c4961d8c-ece7-438b-9eba-7ce7821921a4)
+
+In your Animator window your states should look like the image below. 
+
+![image](https://github.com/user-attachments/assets/70a35a35-f105-4f83-bf9a-bc9bb086ac04)
+
+This is not a good layout for the states of the door. First move away the red Exit button as they door will not leave the states we have previously made. Next set the Layer Default state to the static door frame not the Door open State. This will be the frame that the door is in at the start of the scene. After that layout your states like so for easy visualisation and editing.
+
+![image](https://github.com/user-attachments/assets/0add756e-caf0-460b-b59d-d3e88e9d9b52)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
