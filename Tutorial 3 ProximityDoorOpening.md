@@ -53,7 +53,13 @@ Finally to make the doors have a smooth in between animation and to be able to d
 
 ![image](https://github.com/user-attachments/assets/fd5e7c88-61de-4310-b4a1-87e99bfbc97c)
 
+Now we can start working on getting the door opening and closing within an actual scene. Before we start making the script however we need to make an object that will trigger the animators states we have made. To do this simply make an invisble cube around and out the doors far enough to seem suitable to give the transitions enough time to open based on your players speed. For my door I will be using the scale as seen here:
 
+![image](https://github.com/user-attachments/assets/e9b812a2-f68b-47a0-91e3-c55d60ba9111)
+
+Make sure that this object is ticked as a Trigger in the inspector window. The make it a RigidBody and tick off uses Gravity and then freeze its positions in all dimensions. You dont want your doors to move locations so this will be nessecary. 
+
+![image](https://github.com/user-attachments/assets/f973f014-16d2-4d45-8674-d54d881a8dc0)
 
 
 
