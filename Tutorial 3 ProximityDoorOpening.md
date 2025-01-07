@@ -61,6 +61,25 @@ Make sure that this object is ticked as a Trigger in the inspector window. The m
 
 ![image](https://github.com/user-attachments/assets/f973f014-16d2-4d45-8674-d54d881a8dc0)
 
+Now we can start making the script for the door itself. Add compoment to the Door object and hit C# script. Name this script something obvious such as SlidingDoorTrigger which I will be doing for my one. Under public class enter the following lines:
+
+public Animator MyAnim;
+public string PlayerTag;
+public string OpenCloseAnimBoolName;
+
+These lines will take the animating states we have made fpor references, a string variable for the player Tag if you have one ( I reccomend making one if you havent already) and the string variable to pass the name of the animator Boolian variable. 
+
+![image](https://github.com/user-attachments/assets/097c23d9-3c21-48e1-b754-5179597e56b2)
+
+This script will ignore the void start and update areas of the script so we can either ignore them or delete then from the script. Below the lines we have just made create a private void on trigger collision detector like the following to detect if the player has moved in range of the collidor to trigger the animation.
+
+![image](https://github.com/user-attachments/assets/e89fa3fd-a51e-4cc2-8f02-07a7ae4b3652)
+
+Finally to exit out of this function and to get the animator to close the door again copy and paste the previous script on a new line below and change the OnTriggerEnter to OnTriggerExit and the true for the Bool to false instead of true. 
+
+![image](https://github.com/user-attachments/assets/3442c4ca-52be-4eb4-94b5-960831cb619d)
+
+
 
 
 
