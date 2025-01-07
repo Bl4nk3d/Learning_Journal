@@ -37,6 +37,16 @@ This is not a good layout for the states of the door. First move away the red Ex
 
 ![image](https://github.com/user-attachments/assets/0add756e-caf0-460b-b59d-d3e88e9d9b52)
 
+Next we need to create a new Bool and to do this head to the parameters tab within the animator window and click the plus dropdown menu and hit Bool. Name it something simple such as DoorOpen.
+
+![image](https://github.com/user-attachments/assets/13af2cd6-3aa5-4297-bd05-a5388c691d7b)
+
+Now we can start making these transitions. Right click the DoorStatic state which should be colored yellow as it is the new default state and hit make new transitions. It will make a new arrow which you can than drag to the doorOpen state as it needs to open upon being triggered. Inside the transition arrow there shoul be a menu that says 'Conditions'. Click the small plus sign and it will create a new condition for this transition. The condition that it makes innitially which should be DoorOpen - true is the transition that we need. 
+
+![image](https://github.com/user-attachments/assets/a8990cf0-d688-468c-b48c-4891f93a1bbd)
+
+
+
 
 
 
