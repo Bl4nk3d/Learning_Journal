@@ -45,6 +45,16 @@ Now we can start making these transitions. Right click the DoorStatic state whic
 
 ![image](https://github.com/user-attachments/assets/a8990cf0-d688-468c-b48c-4891f93a1bbd)
 
+Next make these same transtions between the Door Open and Door Close states with the Open to close state being DoorOpen - false for its conditions and the DoorClose being the same condition as the Static to Open. 
+
+![image](https://github.com/user-attachments/assets/d45224a7-6497-441b-89da-b5ba57bc978d)
+
+Finally to make the doors have a smooth in between animation and to be able to distrub the animations partway with movement untick the Has Exit Time on all transitions we have made. 
+
+![image](https://github.com/user-attachments/assets/fd5e7c88-61de-4310-b4a1-87e99bfbc97c)
+
+
+
 
 
 
