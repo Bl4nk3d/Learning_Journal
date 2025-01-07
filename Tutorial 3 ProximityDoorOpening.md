@@ -79,7 +79,18 @@ Finally to exit out of this function and to get the animator to close the door a
 
 ![image](https://github.com/user-attachments/assets/3442c4ca-52be-4eb4-94b5-960831cb619d)
 
+With all our pieces made we just need to organise them together to work in the scene. Move the Door object into the My Anim section of the script, enter the players tag exactly as spelt in the Player Tag box and finally put the damn of the Bool into the Open Close Anim Bool box. It should look like the following. 
 
+![image](https://github.com/user-attachments/assets/d6f14512-504a-4b80-b33a-27d505be8fee)
+
+And with that the scene should run the door as inntended, opening the door as you approach and closing again when you leave the area. 
+
+![image](https://github.com/user-attachments/assets/b3666081-db1b-4821-a966-4d367a854008)
+![image](https://github.com/user-attachments/assets/225c8965-79bb-4601-a0d4-ab37ce81ba50)
+
+
+
+And that concludes the tutorial for making a fully operational sliding door in Unity.
 
 
 
