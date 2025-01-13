@@ -58,4 +58,22 @@ Started writing the tutorial for pickups.
 
 2nd Tutorial is finisshed along with final touchups for the pickup script.
 
-I want to do something unique with this tutorial so ill take inpspiration from the Binding of Isaac 
+I want to do something unique with this tutorial so ill take inpspiration from the Binding of Isaac.
+
+I want to have simialr door mechanics to top down games that open when the player goes near them. Did some reserach on the Unity animator window that allows objects to have states saved and move between them within unity under certain conditions. Im going to find a tutorial on how to use this properly.
+
+Found how to use the Unity animator with cube blocks that move inward and outward away from each other. Now i just need to make these into a door shape.
+
+10/12/24
+
+I made the door asset quicky using some blocks for the walls and doors of the object and started making the animation states. Had some issues at first with the states not saving properly but was fixed after I started using the record button and creatign a Bool
+
+The states of the door are now saved so im going to start putting this into some code. 
+
+Easiest way to detect collsion was to make an invisble box that detects the player approaching the door. 
+
+Quivkly finished the code for the door as it wasnt too long to make. Had some issues with the code making the states move back and forth but this was fixed quickly with setting the Bool to be changed. 
+
+17/12/24
+
+
