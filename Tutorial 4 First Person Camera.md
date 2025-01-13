@@ -23,3 +23,24 @@ For the actual movement part of the code the lines are as the following. This co
 
 **![image](https://github.com/user-attachments/assets/c39bf508-976d-4dfe-9412-bfedff9cfdb9)
 
+ Next we need to asssign the code that allows the player to jump. This code will check for if the player is grounded when they attempt to jump. This happens because if the player attempts to jump when they have already left the floor or are falling, the code will prevent them from being able to jump again on nothing and potentially fly away, which is not something I want to happen with my prototype. This code will also make sure that the duirection of jumpign is relative to the movement of the player not the camera as this allows the player to keep suitable movement and momentum when looking away from where they are jumping to. 
+
+ ![image](https://github.com/user-attachments/assets/ff488d14-1a00-471c-ad57-3e59b78c35e3)
+
+Finally the last section of code for the movement will handle the rotation of the camera based on the mouse controls. The movement of the mouse will turn the camera based on the camera speed variable determined earlier and this affects both X and Y translations of the camera. This code also holds where the rotation of the camera and player are as both need to rotate in sync for the point of foward to be the same for both objects. 
+
+![image](https://github.com/user-attachments/assets/a59c4c32-9049-48b8-9003-e85794ab5992)
+
+Now we can assign our code to be used in the scene. First however we need to make this scene.
+
+In the hieracry of the scene create a large plane. This will be the floor that the player will run around on. 
+
+![image](https://github.com/user-attachments/assets/5fc321c6-0ff5-4b0e-ae78-a0d216a9ab61)
+
+Next we can set up the player itself. Create an empty object and name it Player. This will become the parent of the other assets we will be adding layer including the camera and the capsule controller itself.
+
+![image](https://github.com/user-attachments/assets/5599f32e-fc07-4279-99fd-ad60cab612f2)
+
+Next make a capsule object and place it within the Player object for it to be parented and then drag the main camera object in as well so that both object are inside the empty player object. 
+
+![image](https://github.com/user-attachments/assets/d338bb2c-ebda-4a11-ba59-2b76a0ffa2c1)
