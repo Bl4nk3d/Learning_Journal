@@ -15,3 +15,11 @@ This also includes how quickly the camera rotates with the mouse. The variables 
 
 ![image](https://github.com/user-attachments/assets/3b45bcdf-f798-450e-be69-8009be21fdd1)
 
+After this we need to set the start method for the script. These lines of code will get our character controller and hide the cursor when we play the scene. 
+
+![image](https://github.com/user-attachments/assets/b16fb6ec-9503-4892-bda0-8ec869938250)
+
+For the actual movement part of the code the lines are as the following. This code will change how the movement works depending on the face of the camera so that wherever the player is looking is what 'forward' is and vice versa for other directions. This will also detect if the player is sprinting and bring up the speed to the variable put into sprint speed earlier. 
+
+**![image](https://github.com/user-attachments/assets/c39bf508-976d-4dfe-9412-bfedff9cfdb9)
+
