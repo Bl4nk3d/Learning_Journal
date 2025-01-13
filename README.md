@@ -72,7 +72,7 @@ The states of the door are now saved so im going to start putting this into some
 
 Easiest way to detect collsion was to make an invisble box that detects the player approaching the door. 
 
-Quivkly finished the code for the door as it wasnt too long to make. Had some issues with the code making the states move back and forth but this was fixed quickly with setting the Bool to be changed. 
+Quickly finished the code for the door as it wasnt too long to make. Had some issues with the code making the states move back and forth but this was fixed quickly with setting the Bool to be changed. 
 
 17/12/24
 
