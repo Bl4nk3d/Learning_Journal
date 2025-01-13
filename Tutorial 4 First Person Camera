@@ -1,8 +1,0 @@
-For this tutorial I will be making a proper first person camera on a moving player object 
-
-The aim of this tutorial is to make a smooth fully operation firts person perspective of a playe within a scene that can move around and interact with other things in the future.
-
-To begin this tutorial we need to make a new script. Name this script PlayerCam or anything that you will remember.
-
-Afte opening the script we can start adding in the code that will rotate the player and the camera we are seeing through. Firts create two floats for the X and Y sensitivity, a  public transform for the player orientation and two fdloats for the rotation of the camera.
-
