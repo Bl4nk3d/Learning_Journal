@@ -41,6 +41,13 @@ Next we can set up the player itself. Create an empty object and name it Player.
 
 ![image](https://github.com/user-attachments/assets/5599f32e-fc07-4279-99fd-ad60cab612f2)
 
-Next make a capsule object and place it within the Player object for it to be parented and then drag the main camera object in as well so that both object are inside the empty player object. 
+Next make a capsule object and place it within the Player object for it to be parented and then drag the main camera object in as well so that both object are inside the empty player object. Making sure that the capsule and the cameras location is 0 in all dimensions will help move the camera higher up within the capsule to about where head hight would be instead of viewing from the chest area. 
 
 ![image](https://github.com/user-attachments/assets/d338bb2c-ebda-4a11-ba59-2b76a0ffa2c1)
+
+Now add the player script to the parent object player object. Note; if you add this script to the capsule and not the parents the objects camera will not be able move horizontally. 
+
+![image](https://github.com/user-attachments/assets/c6343e5c-ff34-48c1-88d3-e018a62b5fd9)
+
+Finally put the main camera object into the player camera box as seen in the image above and the player should be fully functionable within the screen. (Note; the mouse will not be removed from the screen until you click on the scene window and will reappear again when hitting Esc.)
+
