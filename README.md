@@ -76,4 +76,54 @@ Quickly finished the code for the door as it wasnt too long to make. Had some is
 
 17/12/24
 
+Worked on tweaking the settings for the door like the speed, how far away it detected the playe rmoving towards it and its sizes and shapes. 
 
+Worked on writing the tutorial for the rest of the day
+
+24/12/24
+
+Continued writing the tutorial for the door opening script. This script has a lot of explaining to do expecially because im using features not many others are using for this project. 
+
+Finished most of it by the end of the day. 
+
+20/12/24
+
+Began working on my final script which was going to be a first person moevemnt code. I had some issues with the code not picking up on certain commands such as the cursors lockstate and its visibility causing errors in the scene.
+
+Im going to take a break from coding for a bit.
+
+7/01/25
+
+Picked back up the movement code after sorting out some other work. Got the cursor lock code lines working now, some spelling and grammar was causing some issues.
+
+Got through the majority of the movement code abd began the lines for the sprinting mechanic.
+
+8/01/25
+
+Sprinting mechanic was finished, the calculations did not seem to do much so i increased the variable of the sprint speed and it seemed suitable. 
+
+Jumping mechanic has been added. Used some inspriation from online tutorials on how they use movement direction for the jumping so that the player can jump backwards with proper momentum. 
+
+Added in a ground check to stop the player from flying away. 
+
+9/01/25
+
+Put together all of the code for the players movement using a new parent object with a capsule in an empty object along with the main charcater. Made a mistake with the movement script as it was innitially added to the capsule object instead of the parent which caused the camera to not be able to turn horzintally. This was fixed after I removed it from the capsule and put it on the parent object instead. After moving the camera up slightly for a better point of view the script was not complete. 
+
+I need a break man ill do the tutorial tmr
+
+10/01/25
+
+Tutorial for the 4th script has now been done. Went back to the Unity project to start placing things around to make a small protype minigame for the prototype. 
+
+13/01/25
+
+Prototype for the game is now finished. Made a small map with coins to collect with some visible and others hidden a bit. 
+
+Recorded some gameplay of the scene and uploaded that to the github repo
+
+Touched up some files along with uploading all the project and videos to the main branch and saved everything.
+
+Project Done :)
+
+Im going to bed.
